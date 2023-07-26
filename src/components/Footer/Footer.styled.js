@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    width: 300px;
     color: #E4E5EA;
     font-family: 'Inter', sans-serif;
 
@@ -16,8 +17,8 @@ export const Container = styled.div`
 
 export const Section = styled.div`
     display: flex;
+    padding: 0 10px;
     flex-direction: column;
-    margin-left: 14px;
     background-color: #0E1014;
     color: #E4E5EA;
     font-family: 'Inter', sans-serif;
@@ -34,7 +35,7 @@ export const Section = styled.div`
 `;
 
 export const Menu = styled(Section)`
-    margin: 0 20px 0 0;
+    padding: 0;
     flex-direction: row;
     justify-content: space-between;
 
